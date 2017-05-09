@@ -2,12 +2,12 @@
 
 Name:           python-%{pypi_name}
 Version:        0.44
-Release:        1
+Release:        2
 Group:          Development/Python
 Summary:        Foreign Function Interface for Python calling C code
 BuildArch:	noarch
 License:        MIT
-URL:            http://cffi.readthedocs.org/
+URL:            http://pypi.python.org/pypi/olefile
 Source0:	https://pypi.python.org/packages/35/17/c15d41d5a8f8b98cc3df25eb00c5cee76193114c78e5674df6ef4ac92647/%{pypi_name}-%{version}.zip
 BuildRequires:  python-sphinx
 
