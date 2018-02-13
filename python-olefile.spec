@@ -1,14 +1,14 @@
 %define pypi_name olefile
 
 Name:           python-%{pypi_name}
-Version:        0.44
-Release:        2
+Version:        0.45.1
+Release:        1
 Group:          Development/Python
 Summary:        Foreign Function Interface for Python calling C code
 BuildArch:	noarch
 License:        MIT
 URL:            http://pypi.python.org/pypi/olefile
-Source0:	https://pypi.python.org/packages/35/17/c15d41d5a8f8b98cc3df25eb00c5cee76193114c78e5674df6ef4ac92647/%{pypi_name}-%{version}.zip
+Source0:	https://github.com/decalage2/olefile/archive/v%{version}.tar.gz
 BuildRequires:  python-sphinx
 
 BuildRequires:  pkgconfig(python2)
@@ -69,9 +69,7 @@ popd
 %files
 %{py_puresitedir}/%{pypi_name}
 %{py_puresitedir}/%{pypi_name}-%{version}-py?.?.egg-info
-%{py_puresitedir}/Ole*
 
 %files -n python2-%{pypi_name}
 %{py2_puresitedir}/%{pypi_name}
 %{py2_puresitedir}/%{pypi_name}-%{version}-py?.?.egg-info
-%{py2_puresitedir}/Ole*
