@@ -1,7 +1,7 @@
 %define pypi_name olefile
 
 Name:           python-%{pypi_name}
-Version:        0.45.1
+Version:        0.46
 Release:        2
 Group:          Development/Python
 Summary:        Foreign Function Interface for Python calling C code
