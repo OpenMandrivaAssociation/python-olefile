@@ -2,7 +2,7 @@
 
 Name:           python-%{pypi_name}
 Version:        0.46
-Release:        3
+Release:        4
 Group:          Development/Python
 Summary:        Foreign Function Interface for Python calling C code
 BuildArch:	noarch
