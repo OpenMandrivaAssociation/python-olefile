@@ -7,7 +7,7 @@ Group:          Development/Python
 Summary:        Foreign Function Interface for Python calling C code
 BuildArch:	noarch
 License:        MIT
-URL:            http://pypi.python.org/pypi/olefile
+URL:            https://pypi.python.org/pypi/olefile
 Source0:	https://github.com/decalage2/olefile/archive/v%{version}.tar.gz
 BuildRequires:  python-sphinx
 
