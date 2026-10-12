@@ -2,7 +2,7 @@
 
 Name:		python-olefile
 Version:	0.47
-Release:	1
+Release:	2
 Group:		Development/Python
 Summary:	Foreign Function Interface for Python calling C code
 License:	BSD-2-Clause
